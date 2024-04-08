@@ -1,3 +1,9 @@
+/*Assignment 2
+name the file/playground: name_assignment_2_swift (replace name with your first name)
+using the same grid concept from the Chapter 11 Pizza example
+Write a simple program that will generate/print a customer email list
+formated as: Name: Jane Doe Email: jdoe@gmail.com*/
+
 //created structs
 //create a Location struct with x and y coordinates (as we did with the pizza example)
 struct Location {
