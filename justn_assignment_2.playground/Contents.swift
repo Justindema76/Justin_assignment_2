@@ -60,6 +60,6 @@ func findCustomersWithinRange(for customers: [Customer], deliveryLocation: Locat
 let customersInRange = findCustomersWithinRange(for: customers, deliveryLocation: restaurant1Location, within: deliveryRange)
 print("Customers within delivery range of Restuarant 1:")
 for customer in customersInRange {
-    print(customer.email)
+    print("Name: \(customer.name) Email \(customer.email)")
 }
 
